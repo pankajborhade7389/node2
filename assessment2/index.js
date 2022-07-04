@@ -4,7 +4,7 @@ const index = express();
 
 index.get('/',function(req,res){
     
-    const jsonData = {name:"vivek",age:"26"};
+    const jsonData = {name:"pankaj",age:"26"};
     res.write("<h1>Express Node</h1>");
     res.write(JSON.stringify(jsonData));
     res.end();
